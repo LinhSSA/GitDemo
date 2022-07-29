@@ -1,3 +1,63 @@
+#img-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3C4C5C), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#3C4C5C, #F6F6F6, #F6F6F6);
+}
+
+#img-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-2 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5E5E5E), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#5E5E5E, #F6F6F6, #F6F6F6);
+}
+
+#img-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-3 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#14409A), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#14409A, #F6F6F6, #F6F6F6);
+}
+
+#img-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-4 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#C0BAE5), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#C0BAE5, #F6F6F6, #F6F6F6);
+}
+
+#img-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-5 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#5C5C5C), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#5C5C5C, #F6F6F6, #F6F6F6);
+}
+
+#img-6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
+}
+
+.vehicle-product:hover > #img-6 {
+  background: -webkit-gradient(linear, left top, left bottom, from(#33569C), color-stop(#F6F6F6), to(#F6F6F6));
+  background: linear-gradient(#33569C, #F6F6F6, #F6F6F6);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -8,15 +68,21 @@ html {
   font-size: 12px;
 }
 
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 .navbar {
   padding: 0;
 }
 
-#header {
+#navbar {
   background-color: #007cc3;
 }
 
-#header a {
+#navbar a {
   color: #fff;
   padding: 20px 25px;
   border-left: 1px solid #4f91ca;
@@ -24,7 +90,7 @@ html {
   font-size: 1.4rem;
 }
 
-#header > .navbar > a:first-child {
+#navbar a:first-child {
   padding: 0 25px;
 }
 
@@ -76,6 +142,8 @@ html {
 #vehicles #vehicles-list {
   background-color: #F6F6F6;
   padding: 50px;
+  padding-bottom: 100px;
+  max-height: 800px;
 }
 
 #vehicles #vehicles-list .vehicles-tittle h1 {
@@ -100,6 +168,15 @@ html {
 
 #vehicles #vehicles-list .vehicle-product {
   color: #00324f;
+  margin-bottom: 30px;
+}
+
+#vehicles #vehicles-list .vehicle-product:hover > .vehicle-img img:last-child {
+  display: block;
+}
+
+#vehicles #vehicles-list .vehicle-product:hover > .vehicle-img img:first-child {
+  display: none;
 }
 
 #vehicles #vehicles-list .vehicle-product .vehicle-img img:last-child {

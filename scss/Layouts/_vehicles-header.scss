@@ -37,6 +37,8 @@
     #vehicles-list{
         background-color: $color-grey;
         padding: $pd-6;
+        padding-bottom: $pd-6*2;
+        max-height: 800px;
         .vehicles-tittle{
             h1{
                 background-color: $color-grey;
@@ -58,6 +60,16 @@
         }
         .vehicle-product{
             color: $color-dark-blue-200;
+            margin-bottom: $mg-3;
+            &:hover > .vehicle-img img:last-child{
+                display: block;
+            }
+            &:hover > .vehicle-img img:first-child{
+                display: none;
+            }
+            .vehicle-img{
+
+            }
             .vehicle-img img:last-child{
                 display: none;
             }
