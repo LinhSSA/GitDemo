@@ -1,60 +1,48 @@
 #img-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-1 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#3C4C5C), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#3C4C5C, #F6F6F6, #F6F6F6);
 }
 
 #img-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-2 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5E5E5E), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#5E5E5E, #F6F6F6, #F6F6F6);
 }
 
 #img-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-3 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#14409A), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#14409A, #F6F6F6, #F6F6F6);
 }
 
 #img-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-4 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#C0BAE5), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#C0BAE5, #F6F6F6, #F6F6F6);
 }
 
 #img-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-5 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#5C5C5C), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#5C5C5C, #F6F6F6, #F6F6F6);
 }
 
 #img-6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#bbbdc0), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#bbbdc0, #F6F6F6, #F6F6F6);
 }
 
 .vehicle-product:hover > #img-6 {
-  background: -webkit-gradient(linear, left top, left bottom, from(#33569C), color-stop(#F6F6F6), to(#F6F6F6));
   background: linear-gradient(#33569C, #F6F6F6, #F6F6F6);
 }
 
@@ -81,7 +69,6 @@ html {
 #navbar {
   background-color: #007cc3;
 }
-
 #navbar a {
   color: #fff;
   padding: 20px 25px;
@@ -89,7 +76,6 @@ html {
   border-right: 1px solid #4f91ca;
   font-size: 1.4rem;
 }
-
 #navbar a:first-child {
   padding: 0 25px;
 }
@@ -105,22 +91,18 @@ html {
 #vehicles {
   background-color: rgba(0, 67, 108, 0.8);
 }
-
 #vehicles #vehicles-content .vehicles-nav {
   background-color: #fff;
   text-align: center;
   padding: 20px 0;
 }
-
 #vehicles #vehicles-content .vehicles-nav ul {
   list-style: none;
   margin: 0;
 }
-
 #vehicles #vehicles-content .vehicles-nav ul li {
   display: inline;
 }
-
 #vehicles #vehicles-content .vehicles-nav ul li a {
   padding: 6px 25px;
   font-weight: bold;
@@ -128,24 +110,20 @@ html {
   border-right: 0.2rem solid #e5e5e5;
   font-size: 1.4rem;
 }
-
 #vehicles #vehicles-content .vehicles-nav ul li a:hover {
   color: #2198dc;
   text-decoration: none;
 }
-
 #vehicles #vehicles-content .vehicles-nav ul li.active a {
   color: #2198dc;
   text-decoration: underline;
 }
-
 #vehicles #vehicles-list {
   background-color: #F6F6F6;
   padding: 50px;
   padding-bottom: 100px;
   max-height: 800px;
 }
-
 #vehicles #vehicles-list .vehicles-tittle h1 {
   background-color: #F6F6F6;
   position: relative;
@@ -155,49 +133,39 @@ html {
   font-weight: bold;
   font-size: 2.4rem;
 }
-
 #vehicles #vehicles-list .vehicles-tittle h1 i {
   font-size: 1.2rem;
   position: relative;
   top: -5px;
 }
-
 #vehicles #vehicles-list .vehicles-tittle h1 span {
   font-weight: normal;
 }
-
 #vehicles #vehicles-list .vehicle-product {
   color: #00324f;
   margin-bottom: 30px;
 }
-
 #vehicles #vehicles-list .vehicle-product:hover > .vehicle-img img:last-child {
   display: block;
 }
-
 #vehicles #vehicles-list .vehicle-product:hover > .vehicle-img img:first-child {
   display: none;
 }
-
 #vehicles #vehicles-list .vehicle-product .vehicle-img img:last-child {
   display: none;
 }
-
 #vehicles #vehicles-list .vehicle-product h2 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
 #vehicles #vehicles-list .vehicle-product .vehicle-info {
   margin-bottom: 20px;
 }
-
 #vehicles #vehicles-list .vehicle-product .vehicle-info h3 {
   font-weight: normal;
   font-size: 2.4rem;
 }
-
 #vehicles #vehicles-list .vehicle-product .vehicle-info p {
   font-size: 1.4rem;
   margin-bottom: 5px;
@@ -214,7 +182,6 @@ html {
   cursor: pointer;
   margin-right: 5px;
 }
-
 .btn-vehicle:hover {
   background-color: #fff;
   color: #007cc3;
@@ -230,9 +197,7 @@ html {
   font-size: 1.4rem;
   cursor: pointer;
 }
-
 .btn-vehicle-active:hover {
   background-color: #2198dc;
   color: #fff;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
