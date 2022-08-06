@@ -14,9 +14,14 @@
         border-left: $border-1;
         border-right: $border-1;
         font-size: $font-size-1;
+        text-decoration: none;
     }
     a:first-child{
         padding: 0 $pd-4;
+    }
+    a.active{
+        color: $color-blue-100;
+        background-color: $color-grey;
     }
 }
 .no-border{
