@@ -31,14 +31,59 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link no-border">Owners</a>
                         </li>
-                        <li class="nav-item">
-                            <a href="#" class="nav-link no-border">Discovers</a>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link no-border" data-toggle="dropdown">Discovers</a>
+                            <div class="dropdown-menu discover-menu">
+                                <div class="dropdown-menu-detail dropdown-item">
+                                    <div class="dropdown-detail-left">
+                                        <h3>Technology</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Honda Safety</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Honda Sending</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">How-to Video & Guildes <br> by Vehicle</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Environmental Vehicles</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="dropdown-detail-right">
+                                        <h3>Community</h3>
+                                        <ul>
+                                            <li>
+                                                <a href="#">Auto Shows</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Serial One</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">News & Events</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="dropdown-menu-social dropdown-item">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-google-plus-g"></i>
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-twitter"></i>
+                                    <i class="fab fa-youtube"></i>
+                                    <i class="fab fa-google-plus-g"></i>
+                                </div>
+                            </div>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link">English</a>
                         </li>
                         <li class="nav-item d-flex align-items-center">
-                            <a href="#" class="no-border">
+                            <a href="#search-area" class="no-border" data-toggle="collapse">
                                 <i class="fa fa-search"></i>
                             </a>
                         </li>
@@ -90,7 +135,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-1">
                             <div class="vehicle-img" id="img-1">
                                 <img src="./img/xe-1.png" class="img-fluid">
                                 <img src="./img/xe-1-hover.png" class="img-fluid">
@@ -114,7 +159,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-2">
                             <div class="vehicle-img" id="img-2">
                                 <img src="./img/xe-2.png" class="img-fluid">
                                 <img src="./img/xe-2-hover.png" class="img-fluid">
@@ -138,7 +183,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-3">
                             <div class="vehicle-img" id="img-3">
                                 <img src="./img/xe-3.png" class="img-fluid">
                                 <img src="./img/xe-3-hover.png" class="img-fluid">
@@ -162,7 +207,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-4">
                             <div class="vehicle-img" id="img-4">
                                 <img src="./img/xe-4.png" class="img-fluid">
                                 <img src="./img/xe-4-hover.png" class="img-fluid">
@@ -186,7 +231,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-5">
                             <div class="vehicle-img" id="img-5">
                                 <img src="./img/xe-2.png" class="img-fluid">
                                 <img src="./img/xe-2-hover.png" class="img-fluid">
@@ -210,7 +255,7 @@
                             </div>
                         </div>
                         <!-- VEHICLES PRODUCT -->
-                        <div class="col-sm-6 col-md-4 vehicle-product">
+                        <div class="col-sm-6 col-md-4 vehicle-product delay-6">
                             <div class="vehicle-img" id="img-6">
                                 <img src="./img/xe-3.png" class="img-fluid">
                                 <img src="./img/xe-3-hover.png" class="img-fluid">
@@ -717,6 +762,11 @@
                 </div>
             </section>
         </section>
+        <section id="search-area" class="collapse">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Search for anything Honda">
+            <button class="btn btn-search">SEARCH</button>
+        </section>
     </header>
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
@@ -807,6 +857,7 @@
             $('#navbar > a').removeClass('active');
             count = "";
         });
+        $('.vehicle-product').addClass("animate__animated animate__fadeInUp");
     </script>
 
 </body>
